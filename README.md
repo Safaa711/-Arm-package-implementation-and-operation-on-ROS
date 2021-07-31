@@ -1,5 +1,3 @@
-Steps:
-
 1- First, I have downloaded on my windows 10 Virtual Box version 6.1 from Oracle: https://www.virtualbox.org/wiki/Downloads 
 
 2- Then I have created a virtual machine.
@@ -49,6 +47,24 @@ cd ~/catkin_ws
 
 rosdep install --from-paths src --ignore-src -r -y
 
-7- Lunch Rviz simulator with joint state publisher.
+sudo apt-get install ros-melodic-moveit
+
+sudo apt-get install ros-melodic-joint-state-publisher ros-melodic-joint-state-publisher-gui
+
+sudo apt-get install ros-melodic-gazebo-ros-control joint-state-publisher
+
+sudo apt-get install ros-melodic-ros-controllers ros-melodic-ros-control
+
+The last step, was to enter ther following line in the bashrc file:
+
+source /home/safaa/catkin_ws/devel/setup.bash
+
+Note: for inserting we use i, and for exiting we use Ctrl+o then Enter then Ctrl+x
+
+source ~/.bashrc
+
+7- Finally, I have Launched Rviz simulator with joint state publisher using the following command:
+
+roslaunch robot_arm_pkg check_motors.launch
 
 ![image](https://user-images.githubusercontent.com/85526390/126322123-a0880615-69b5-407f-8dcb-cb1cc10dbdf4.png)
