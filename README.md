@@ -69,7 +69,7 @@ roslaunch robot_arm_pkg check_motors.launch
 
 ![image](https://user-images.githubusercontent.com/85526390/126322123-a0880615-69b5-407f-8dcb-cb1cc10dbdf4.png)
 
-6- Then I have controlled the arm in a real simulator called gazebo, using the following commands:
+6- Then in a new terminal, I have controlled the arm in a real simulator called gazebo, using the following commands:
 
 cd catkin_ws/src/arduino_robot_arm/robot_arm_pkg/scripts
 
@@ -81,10 +81,13 @@ Then I have typed in a new terminal the following command:
 
 rosrun robot_arm_pkg joint_states_to_gazebo.py
 
+![Screenshot from 2021-08-01 02-28-54](https://user-images.githubusercontent.com/85526390/127754691-24414f61-4e37-4c90-b885-3f8ec890a299.png)
 
 
 7- Finally, to run the arm in Moveit, I have used the following command:
 
 roslaunch moveit_pkg demo.launch
+
+
 
 
