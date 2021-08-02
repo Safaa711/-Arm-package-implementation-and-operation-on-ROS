@@ -1,5 +1,3 @@
-![Screenshot from 2021-08-02 19-29-57](https://user-images.githubusercontent.com/85526390/127901071-1a9e3a28-96ac-433d-984b-38b15188b6f2.png)
-![Screenshot from 2021-08-02 19-29-57](https://user-images.githubusercontent.com/85526390/127901178-7ec8ed68-b94b-4bef-a573-7b527d552c16.png)
 1- First, I have downloaded on my windows 10 Virtual Box version 6.1 from Oracle: https://www.virtualbox.org/wiki/Downloads 
 
 2- Then I have created a virtual machine.
