@@ -1,3 +1,5 @@
+![Screenshot from 2021-08-02 19-29-57](https://user-images.githubusercontent.com/85526390/127901071-1a9e3a28-96ac-433d-984b-38b15188b6f2.png)
+![Screenshot from 2021-08-02 19-29-57](https://user-images.githubusercontent.com/85526390/127901178-7ec8ed68-b94b-4bef-a573-7b527d552c16.png)
 1- First, I have downloaded on my windows 10 Virtual Box version 6.1 from Oracle: https://www.virtualbox.org/wiki/Downloads 
 
 2- Then I have created a virtual machine.
@@ -87,6 +89,9 @@ rosrun robot_arm_pkg joint_states_to_gazebo.py
 7- Finally, to run the arm in Moveit, I have used the following command:
 
 roslaunch moveit_pkg demo.launch
+
+![Screenshot from 2021-08-02 19-29-57](https://user-images.githubusercontent.com/85526390/127901235-f7c1a13b-4457-4104-9715-a149e3bb478c.png)
+
 
 
 
